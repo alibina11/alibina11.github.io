@@ -1,0 +1,365 @@
+.header_nav{
+    width: auto;
+    height: 100px;
+    background-color: darkred;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkred;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+body{
+    background-color: deeppink;
+}
+.navv{
+    display: flex;
+    justify-content: center;
+}
+.navv > ul{
+display: flex;
+list-style-type: none;
+}
+.navv > ul > a {
+    text-decoration: none;
+    color: gold;
+    margin:  0px 12px;
+    font-size: 20px;
+
+}
+.navv > ul > a:hover{
+    opacity: 0.8;
+}
+.ask{
+    height: 50px;
+    width: 120px;
+    background-color: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+.ask:hover{
+    opacity: 0.8;   
+cursor: pointer;
+}
+.mainpage{
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    width: auto;
+}
+.text_link{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 2000px;
+}
+.textmain{
+    margin-left: 0;
+    width: 530px;
+    text-align: center;
+}
+.textlink h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: crimson;
+    font-size: 50px;
+
+}
+.textlink >h1 >span{
+font-weight: lighter;
+font-size: 40px;
+}
+.text_link>ul{
+    list-style-type: none;
+}
+.circleicon{
+    border: 1px solid goldenrod;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.circleicon:hover{
+    cursor: pointer;
+    border: 1px solid rebeccapurple;
+}
+.serviceinfo{
+    background-color: firebrick;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.serviceinfo > p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    margin-top: 50px;
+}
+.serviceinfo > .textservice {
+    width: 570px;
+}
+.serviceinfo > .textservice >h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+}
+.serviceinfo > boxinfo {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.textservice {
+    width: 400px;
+    text-align: center;
+}
+
+.boxinfo {
+ display:flex ;   
+
+}
+
+.boxstyle{
+    width: 300px;
+    height: 300px;
+    border: 1px solid darkred;
+    margin: 40px;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+      }
+      .boxstyle:hover{
+          border: 1px solid plum;
+      }
+      .boxstyle > p{
+          opacity: 0.7;
+          width: 200px;
+          text-align: center;
+      }
+      .aboutmain{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 600px;
+      }
+      .about_text{
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          width: 400px;
+          height: 400px;
+          margin-right: 70px;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          align-items: center;
+      }
+      .about_text > p {
+          opacity: 0.7;
+      }
+      .btn_me{
+          margin-top: 40px;
+          border-radius: 25px;
+          width: 120px;
+          height: 50px;
+          border: none;
+          background-color: red;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .btn_me:hover{
+          opacity: 0.8;
+          cursor: pointer;
+      }
+      .about_img{
+          width: 400px;
+          height: 400px;
+          border: 1px solid black;
+          background-color: cornflowerblue;
+      }
+      .about_main_info{
+          height: 300px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: sans-serif;
+          font-size: 50px;
+          color: crimson;
+      }
+      .about_main_text{
+          background-color: firebrick;
+          height: 700px;
+          display: flex;
+          flex-direction: column;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+          align-items: center;
+      }
+      .about_main_text >h1 {
+          font-weight: lighter;
+          width: 500px;
+          text-align:center ;
+          margin-top: 70px;
+      }
+      .about_me_text{
+          display: flex;
+          justify-content: space-around;
+          margin-top: 50px;
+      }
+      .text_me{
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+      }
+.text_me > h1 {
+    font-size: 40px;
+    margin-top: 40px;
+}
+.text_me > p{
+    width: 570px;
+}
+.image_me{
+    width: 400px;
+    height: 400px;
+    border: 1px solid violet;
+    background-color: turquoise;
+    margin-left: 70px;
+}
+.box_about{
+    margin-top: 180px;
+    display: flex;
+    justify-content: center;
+    }
+    .box_me{
+        width: 250px;
+        height: 120px;
+        border: 1px solid slateblue;
+        margin: 0 170px;
+    }
+    .box_me > h1 {
+        text-align: center;
+        color: orchid;
+    }
+    .box_me > p {
+        text-align: center;
+        opacity: 0.7; }
+        .box_me:hover{
+            border: 1px solid indigo;
+            cursor: pointer;
+        }
+  .footer{
+      border: rgb(6, 209, 141);
+      height: 400px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: rgb(43, 55, 226);
+  }
+  .footer_text{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 80px;
+      text-align: center;
+  }  
+  .footer_text > p {
+      width: 570px;
+      margin-top: -20px;
+  }
+  .btn_footer{
+      margin-top: 40px;
+      border-radius: 25px;
+      width: 120px;
+      height: 50px;
+      border: none;
+      color: crimson;
+      background-color: cyan;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .btn_footer:hover{
+      opacity: 0.8;
+      cursor: pointer;
+  }
+  .contact_main{
+      height: 800px;
+      background-color: darkmagenta;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .input_block{
+      display: flex;
+      flex-direction: column;
+      width: 700px;
+  }
+  .inp_text{
+      width: auto;
+      height: 200px;
+      text-align: center;
+      border: 2px solid firebrick;
+  }
+  .inp_name{
+      margin-top: 30px;
+      width: 300px;
+      height: 50px;
+      border: 2px solid gold ;
+  }
+  .inp_sub{
+    margin-top: 30px;
+    width: 700px;
+    height: 50px;
+    border: 2px solid gold ;
+}
+  .inp_mail{
+      margin-top: 30px;
+      width: 300px;
+      margin-left: 75px;
+      height: 50px;
+      border: 2px solid springgreen;
+  }
+  .btn_ent{
+      margin-top: 30px;
+      font-family: cursive;
+      display: flex;
+      justify-content: center;
+      width: 170px;
+      height: 60px;
+      border: 1px solid slateblue;
+      border-radius: 5%;
+      text-align: center;
+      color: slateblue;
+      background-color: tomato;
+  }
+.btn_ent:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.contacts{
+    width: 800px;
+    margin-top: 80px;
+}
+.contacts ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}.contacts > ul >li i{
+    margin-right: 10px;
+}
+.contacts:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+.contacts > ul li{
+    display: flex;
+    align-items: center;
+}
+
+
+
